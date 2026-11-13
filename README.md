@@ -99,3 +99,4 @@ The repository includes a GitHub Actions validation pipeline for Terraform and P
 ---
 
 This project is intentionally structured as a portfolio-ready security architecture example for Kubernetes and Vault integration work in cloud-native production environments. It demonstrates the engineering thinking expected from teams operating in regulated, multi-service, and high-trust platform environments.
+
