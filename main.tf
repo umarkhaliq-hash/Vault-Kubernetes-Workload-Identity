@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "vault" {
-  address = "http://127.0.0.1:8200"
-  token   = "root"
+  # Prefer the environment variables VAULT_ADDR and VAULT_TOKEN.
+  # This keeps the configuration portable across Minikube and local port-forward flows.
 }
 
 resource "vault_mount" "kv2" {

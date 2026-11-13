@@ -28,3 +28,8 @@ vault-audit.log
 # Local Python environment folders
 .venv/
 venv/
+
+*-backup.json
+*.tfstate*
+
+vault-raft-init.json
